@@ -1,4 +1,4 @@
-{% set version = "1.1.4" %}
+{% set version = "1.1.8" %}
 
 package:
   name: azure-common
@@ -7,7 +7,7 @@ package:
 source:
   fn: azure-common-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-common/azure-common-{{ version }}.zip
-  sha256: f8c8d97d0a7de202a47d7081c39c0e4a827c78900719d02c2ebe936e44ff152f
+  sha256: 25559617b41fe0902f34b215a3440a3ffa4862fe442bf351415be0e1d2eb4289
   
 build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
