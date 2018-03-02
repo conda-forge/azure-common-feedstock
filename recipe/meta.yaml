@@ -1,23 +1,27 @@
+{% set name = "azure-common" %}
 {% set version = "1.1.8" %}
+{% set sha256 = "25559617b41fe0902f34b215a3440a3ffa4862fe442bf351415be0e1d2eb4289" %}
 
 package:
-  name: azure-common
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: azure-common-{{ version }}.zip
-  url: https://pypi.io/packages/source/a/azure-common/azure-common-{{ version }}.zip
-  sha256: 25559617b41fe0902f34b215a3440a3ffa4862fe442bf351415be0e1d2eb4289
-  
+  fn: {{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  sha256: {{ sha256 }}
+
 build:
-  script: python setup.py install --single-version-externally-managed --record=record.txt
-  number: 0
+  number: 1
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
     - setuptools
     - azure-nspkg
+    - pip
   run:
     - python
     - azure-nspkg
