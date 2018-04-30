@@ -14,12 +14,15 @@ Summary: Microsoft Azure Client Libraries for Python
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/azure-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-common-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/azure-common-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/azure-common-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-common/badges/version.svg)](https://anaconda.org/conda-forge/azure-common)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-common/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-common)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-azure--common-green.svg)](https://anaconda.org/conda-forge/azure-common) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/azure-common.svg)](https://anaconda.org/conda-forge/azure-common) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/azure-common.svg)](https://anaconda.org/conda-forge/azure-common) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/azure-common.svg)](https://anaconda.org/conda-forge/azure-common) |
 
 Installing azure-common
 =======================
