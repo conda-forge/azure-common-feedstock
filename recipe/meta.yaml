@@ -1,6 +1,6 @@
 {% set name = "azure-common" %}
-{% set version = "1.1.15" %}
-{% set sha256 = "8139e399d8c15f1dfcbc6254ccf98a835888cdaf500487b58d6af3e4bb3726a2" %}
+{% set version = "1.1.16" %}
+{% set sha256 = "2606ae77ff81c0036965b92ec2efe03eaec02a66714140ca0f7aa401b8b9bbb0" %}
 
 package:
   name: {{ name|lower }}
