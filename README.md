@@ -5,11 +5,9 @@ Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-common-feedstock/blob/master/LICENSE.txt)
 
 Summary: Microsoft Azure Client Libraries for Python
-
-
 
 Current build status
 ====================
@@ -117,5 +115,4 @@ Feedstock Maintainers
 =====================
 
 * [@Maxyme](https://github.com/Maxyme/)
-* [@ivoflipse](https://github.com/ivoflipse/)
 
