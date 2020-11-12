@@ -1,6 +1,6 @@
 {% set name = "azure-common" %}
-{% set version = "1.1.24" %}
-{% set sha256 = "184ad6a05a3089dfdc1ce07c1cbfa489bbc45b5f6f56e848cac0851e6443da21" %}
+{% set version = "1.1.26" %}
+{% set sha256 = "b2866238aea5d7492cfb0282fc8b8d5f6d06fb433872345864d45753c10b6e4f" %}
 
 package:
   name: {{ name|lower }}
@@ -34,7 +34,7 @@ test:
 about:
   home: https://github.com/Azure/azure-sdk-for-python
   license: Apache-2.0
-  summary: 'Microsoft Azure Client Libraries for Python'
+  summary: Microsoft Azure Client Libraries for Python
 
 extra:
   recipe-maintainers:
