@@ -3,13 +3,15 @@ About azure-common
 
 Home: https://github.com/Azure/azure-sdk-for-python
 
-Package license: Apache-2.0
+Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-common-feedstock/blob/master/LICENSE.txt)
 
-Summary: Microsoft Azure Client Libraries for Python
+Summary: Microsoft Azure Client Library for Python (Common)
 
+Development: https://github.com/Azure/azure-sdk-for-python
 
+Documentation: https://docs.microsoft.com/en-us/azure/developer/python/
 
 Current build status
 ====================
@@ -117,5 +119,5 @@ Feedstock Maintainers
 =====================
 
 * [@Maxyme](https://github.com/Maxyme/)
-* [@ivoflipse](https://github.com/ivoflipse/)
+* [@xylar](https://github.com/xylar/)
 
