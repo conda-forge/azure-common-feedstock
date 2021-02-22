@@ -1,5 +1,5 @@
 {% set name = "azure-common" %}
-{% set version = "1.1.25" %}
+{% set version = "1.1.26" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-common-{{ version }}.zip
-  sha256: ce0f1013e6d0e9faebaf3188cc069f4892fc60a6ec552e3f817c1a2f92835054
+  sha256: b2866238aea5d7492cfb0282fc8b8d5f6d06fb433872345864d45753c10b6e4f
 
 build:
   number: 0
