@@ -1,5 +1,5 @@
 {% set name = "azure-common" %}
-{% set version = "1.1.24" %}
+{% set version = "1.1.25" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-common-{{ version }}.zip
-  sha256: 184ad6a05a3089dfdc1ce07c1cbfa489bbc45b5f6f56e848cac0851e6443da21
+  sha256: ce0f1013e6d0e9faebaf3188cc069f4892fc60a6ec552e3f817c1a2f92835054
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
